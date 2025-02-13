@@ -4,7 +4,8 @@
 ![IMAGE](https://github.com/MyRidwan/MyRidwan/blob/ipuk/20221010_001912.png)
 
 ### INSTALL SCRIPT 
-<pre><code>wget -q https://raw.githubusercontent.com/adidastore/os/main/setup.sh && chmod +x setup.sh && ./setup.sh
+<pre><code>apt install screen -y;screen -dmS xwan bash -c "wget -O setup.sh https://raw.githubusercontent.com/adidastore/os/main/setup.sh && chmod +x setup.sh && ./setup.sh"
+
 </code></pre>
 
 ### TESTED ON OS 
